@@ -1,0 +1,11 @@
+@font-face { 
+	font-family: SansBullshitSans;
+	src: url('chrome-extension://__MSG_@@extension_id__/SansBullshitSans.ttf');
+	font-weight:normal;
+}
+
+body, html body *{
+	font-family: SansBullshitSans !important;
+	font-variant-ligatures:common-ligatures !important;
+	font-feature-settings: "liga" 1, "dlig" 1 !important;
+}
